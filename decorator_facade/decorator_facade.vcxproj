@@ -140,6 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="decorator_facade.cpp" />
+    <ClCompile Include="MyList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyList.h" />
+    <ClInclude Include="MyList_Decor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
