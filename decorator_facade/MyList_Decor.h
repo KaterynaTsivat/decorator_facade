@@ -1,8 +1,7 @@
 #pragma once
 #include "MyList.h"
 template<typename T>
-class MyList_Decor :
-	public MyList<T>
+class MyList_Decor : public MyList<T>
 {
 public:
 	MyList_Decor() {}

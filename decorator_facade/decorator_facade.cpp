@@ -1,10 +1,8 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 #include "MyList_Decor.h"
 //Для класса std::vector<T> реализовать декоратор с методами :
 //1) Удаления всех значений(значение принимается, как параметр метода)
 //2) Вставки N значения M раз
-//
 //
 //А так же, фасад с методами :
 //1) push
@@ -42,6 +40,16 @@ int main()
 
 	std::cout << "\n size of list ";
 	std::cout << ml.size_list() << "\n";
+
+	//std::cout << "\n insert number ";
+	//int end_iter = ml.front_numbers();
+	//end_iter--;
+	///*std::list<int>::const_iterator end_iter = numbs.cend();
+	//end_iter--;*/
+	//ml.inserting_values(end_iter, 4);
+	//ml.emplace_number(2, 9);
+	/*std::cout << "\n list ";
+	std::cout << ml << "\n";*/
 
 	
 }
